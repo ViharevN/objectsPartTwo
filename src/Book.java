@@ -44,12 +44,10 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "name='" + name + '\'' +
-                ", author=" + author +
-                ", year=" + year +
-                '}';
+        return "Название книги: " + name + author +
+                ", год печати: " + year;
     }
+
 }
 
 
